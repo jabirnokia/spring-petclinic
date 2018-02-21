@@ -3,3 +3,4 @@ git svn clone -s https://anonsvn.springframework.org/svn/spring-samples/petclini
 svn checkout https://anonsvn.springframework.org/svn/spring-samples/petclinic/trunk petclinic
 
 http://static.springsource.org/docs/petclinic.html
+Dummy line to trigger build.

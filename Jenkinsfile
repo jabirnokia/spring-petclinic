@@ -3,4 +3,14 @@ pipeline{
   stages{
     stage('checkout'){
       steps {
-        git '
+        git 'https://github.com/jabirnokia/spring-petclinic.git'
+      }
+    }
+    stage('Build'){
+      steps {
+        sh 'mvn clean package'
+      }
+    }
+  }
+}
+     
